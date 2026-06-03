@@ -1,0 +1,2 @@
+# python-learning-journey
+MY DAILY LEARNING OF PYTHON FROM SCRATCH
