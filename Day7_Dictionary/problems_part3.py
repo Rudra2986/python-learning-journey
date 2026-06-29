@@ -1,7 +1,6 @@
 # Day 7: Dictionary Practice - Part 3
 
 # Problem 6: Find the keys with the highest and lowest values in a dictionary.
-print("--- Problem 6: Max and Min Value ---")
 product_prices = {
     "Laptop": 1200,
     "Mouse": 25,
@@ -20,7 +19,6 @@ print()
 
 
 # Problem 7: Filter dictionary key-value pairs based on a threshold (e.g. scores > 80).
-print("--- Problem 7: Value Filter ---")
 student_scores = {
     "Alice": 85,
     "Bob": 72,
@@ -38,7 +36,6 @@ print()
 
 
 # Problem 8: Group a list of integers into lists of even and odd numbers within a dictionary.
-print("--- Problem 8: Even/Odd Grouping ---")
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 grouped_numbers = {
