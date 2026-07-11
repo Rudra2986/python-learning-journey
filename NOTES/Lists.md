@@ -125,9 +125,11 @@ print(fruits)
 
 ## Important Notes
 
-* Lists are mutable
-* Lists can store multiple data types
-* Indexing starts from 0
+- **Lists are mutable** → You can change, add, or remove elements after the list is created.
+
+- **Lists can store multiple data types** → A single list can contain integers, strings, floats, booleans, etc.
+
+- **Indexing starts from 0** → The first element is at index `0`, the second at `1`, and so on.
 
 ```
 ```
