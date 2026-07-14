@@ -16,18 +16,20 @@ Defaults: - start = 0 - stop = len(string) - step = 1
 
 ## Slicing Cheat Sheet
 
-  Slice       Meaning                  Example (`python`)   Result
-  ----------- ------------------------ -------------------- ----------
-  `s[:]`      Copy entire string       `s[:]`               `python`
-  `s[1:]`     From index 1             `s[1:]`              `ython`
-  `s[:3]`     First 3 characters       `s[:3]`              `pyt`
-  `s[:-1]`    Remove last character    `s[:-1]`             `pytho`
-  `s[-1]`     Last character           `s[-1]`              `n`
-  `s[::-1]`   Reverse                  `s[::-1]`            `nohtyp`
-  `s[::2]`    Every 2nd character      `s[::2]`             `pto`
-  `s[1::2]`   Every 2nd from index 1   `s[1::2]`            `yhn`
-  `s[::-2]`   Reverse with step 2      `s[::-2]`            `nhy`
-  `s[2:5]`    Index 2 to 4             `s[2:5]`             `tho`
+| Slice | Meaning | Example | Result |
+| :--- | :--- | :--- | :--- |
+| `s[:]` | Copy entire string | `s[:]` | `python` |
+| `s[1:]` | From index 1 to end | `s[1:]` | `ython` |
+| `s[:3]` | First 3 characters | `s[:3]` | `pyt` |
+| `s[:-1]` | Remove last character | `s[:-1]` | `pytho` |
+| `s[-1]` | Last character | `s[-1]` | `n` |
+| `s[::-1]` | Reverse string | `s[::-1]` | `nohtyp` |
+| `s[::2]` | Every 2nd character | `s[::2]` | `pto` |
+| `s[1::2]` | Every 2nd character from index 1 | `s[1::2]` | `yhn` |
+| `s[::-2]` | Reverse with step 2 | `s[::-2]` | `nhy` |
+| `s[2:5]` | Characters from index 2 to 4 | `s[2:5]` | `tho` |
+
+---
 
 ## Examples
 
