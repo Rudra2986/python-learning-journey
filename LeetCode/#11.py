@@ -1,3 +1,4 @@
+# optimised version
 class Solution:
     def maxArea(self, height: list[int]) -> int:
         max_area = 0
